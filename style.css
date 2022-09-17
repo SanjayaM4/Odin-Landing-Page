@@ -17,12 +17,16 @@ body {
 
 button {
     border-radius: 25px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
 }
 
 .header {
     display: flex;
-    background-color: rgb(32, 32, 107);
-    color: aqua;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -37,17 +41,23 @@ button {
 
 a {
     text-decoration: none;
-    color: aqua;
+    color: #F9FAF8;
 }
 
 .main {
     display: flex;
     align-self: center;
     align-items: center;
-    background-color: #eee;
+    background-color: #1F2937;
     justify-content: space-around;
     width: 100%;
 
+}
+
+.main h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .left {
@@ -58,22 +68,14 @@ a {
     margin: 64px;
 }
 
-button {
-    width: 100px;
-}
-
 .main img {
     width: 200px;
     height: auto;
 }
 
 .main p {
-    color: rgb(114, 108, 108);
-}
-
-.main button {
-    background-color: rgb(39, 39, 240);
-    color: aliceblue;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .infobar {
@@ -82,6 +84,12 @@ button {
     align-items: center;
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+.infobar h2 {
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .text-img {
@@ -106,7 +114,7 @@ button {
 .quotebar {
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -115,7 +123,9 @@ button {
 
 .quotebar em {
     display: flex;
-    font-size: 32px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
     width: 800px;
 }
 
@@ -125,26 +135,21 @@ button {
 
 .signup {
     display: flex;
-    background-color: blueviolet;
+    background-color: #3882F6;
     width: 800px;
     align-items: center;
     justify-content: space-evenly;
     align-self: center;
-    color: aliceblue;
+    color: white;
     margin-top: 64px;
     margin-bottom: 64px;
-    border-radius: 100px;
-}
-
-.signup button {
-    background-color: blue;
-    color: aliceblue;
+    border-radius: 25px;
 }
 
 .footer {
     display: flex;
-    background-color: rgb(32, 32, 107);
-    color: rgb(114, 108, 108);
+    background-color: #1F2937;
+    color: white;
     width: 100%;
     justify-content: center;
     margin: 0;
